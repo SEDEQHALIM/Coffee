@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* first main div */
+#firstNav{
+    width: 100%;
+    height:47rem;
+    background-size: cover;
+    color: #ffecd0;
+}
+#navBar{
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+}
+#navBarList li{
+    display: inline-block;
+    padding: 5px;
+}
+#navBarList #logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    margin-right: 19%;
+    color: wheat;
+}
+#navBar #logo a:hover,#navBar #logo a:visited{
+    font-size: 30px;
+    color: wheat;
+    text-decoration-line: none;
+
+}
+#navBar  a{
+    text-decoration-line: none;
+    color: wheat;
+}
+#navBarList li.center{
+    width: 8.5%;
+}
+/* #navBarList li#lastCenterListNav{
+     margin-left: 15%;
+} */
+#navBarList li#signin{
+    width: 7%;
+    margin-left: 14%;
+
+}
+#navBarList li#signup {
+    color: wheat;
+}
+#navBar:hover,#navBar:visited,#navBar:link{
+    text-decoration-line: none;
+}
+
+#navBar #home:hover,#navBar #home:visited{
+    font-size: 25px;
+    color: wheat;
+}#navBar #menu:hover,#navBar #menu:visited{
+    font-size: 25px;
+    color: wheat;
+}#navBar #contact:hover,#navBar #contact:visited{
+    font-size: 25px;
+    color: wheat;
+}
+#navBar #lastCenterListNav:hover,#navBar #lastCenterListNav:visited{
+    font-size: 25px;
+    color: wheat
+}
+#navBar #signin:hover,#navBar #signin:visited{
+    font-size: 25px;
+    color: wheat;
+}
+#navBar #signup:hover,#navBar #signup:visited{
+    font-size: 25px;
+    color: wheat;
+}
+#firstNav #innerFirstNav{
+    position: Fsolute;
+    left: 10%;
+    top: 26%;
+    font-size: x-large;
+    width: 527px;
+    height: 490px;
+    font-size: 30px;
+}
+#firstNav #innerFirstNav h1{
+    font-size: 80px;
+}
+
+div#toUpPageDiv img#toUpPage{
+    width: 6rem;
+    height: auto;
+}
+/* -------------- */
+div#toUpPageDiv{
+    position: sticky;
+    top: 36rem;
+    margin-left: 91.5%;
+}
+
+/* second main div */
+
+
+#secondMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* margin: 40px; */
+    width: 80%;
+    height: 58%;
+    text-align: center;
+    font-size: xx-large;
+}
+#secondMainDiv #leftSMD{
+    float: left;
+    width: 42%;
+    height: 348px;
+    text-align: start;
+}
+#secondMainDiv #leftSMD h2{
+    color: #6c3b27;
+}
+#secondMainDiv #leftSMD input{
+    text-align: left;
+    background-color: #F9C06A;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#secondMainDiv #rightSMD{
+    float: right;
+    width: 38%;
+}
+/* third main div */
+#thirdMainDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    font-size: x-large;
+}
+#thirdMainDiv h2{
+    background-color: #F9C06A;
+}
+#innerThirdMainDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#innerThirdMainDiv div{
+ 
+    background-color: #FFF9F1;
+    margin-bottom: 100px;
+}
+#innerThirdMainDiv div h3{
+    color: #6c3b27
+}
+#innerThirdMainDiv div input[type="button"]{
+    background-color: #F9C06A;
+    border-radius: 50%;
+    padding: 10px;
+    font-weight: bold; 
+    font-size: large; 
+    
+}
+#innerThirdMainDiv div input[type="button"]:hover{
+    background-color: #ffecd0;
+}
+/* img */
+div#imgRight{
+    position: relative;
+    height: 165px;
+}
+img#imgRight{
+    position: absolute;
+    right: 0px;
+    top: -62px;
+}
+/*       */
+
+/* forth main div */
+#fourthMainDiv{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    font-size: x-large ;
+    /* margin-bottom: 30px;
+    margin-top: -5%; */
+}
+#fourthMainDiv h3{
+    color: #6c3b27;
+}
+#innerfourthMainDiv{
+    display: flex;
+    justify-content: space-between;   
+    margin-top:20px;
+    margin-bottom:20px ; 
+    flex-wrap: wrap;
+}
+#innerfourthMainDiv div{
+    font-size: large;
+    background-color: rgb(255, 241, 223);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#fourthMainDiv img,h3,p{
+    margin: 1%
+}
+#fourthMainDiv input[type="button"]{
+    background-color: #F9C06A;
+    border-radius: 1.5em;
+    padding: 10px;
+    font-weight: bold; 
+    font-size: large; 
+    margin: auto;
+    width: 10em;
+}
+/* div five  */
+div#fivthMainDiv{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 2em;
+    background-color: #603809;
+    position: relative;
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#fivthMainDiv>img{
+    position: absolute;
+    opacity: .3;
+}/*
+#leftInnerFivthMainDiv{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    width:50% 
+}*/
+#fivthMainDiv input[type="button"]{
+    background-color: #F9C06A;
+    border-radius: 45%;
+    padding: 10px;
+    font-weight: bold; 
+    font-size: large; 
+    width: 10em;
+    border-radius: 1.5em;
+    /* margin: auto; */
+}
+/* div#fivthMainDiv span{
+    display: inline-block;
+    position: absolute;
+    top:15%;
+    right:10%;
+}  */
+/* six main div */
+#sixthMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    font-size: large;
+}
+#sixthMainDiv h2,h3{
+    color: #6c3b27;
+}
+#sixthMainDiv img#rightImg{
+position: absolute;
+top:-64px;
+right: 0;
+}
+#sixthMainDiv #innerSixthMainDiv{
+    width: 70%;
+    background-color: rgb(253, 245, 234);
+    text-align: center;
+    padding-bottom: 3%;
+    margin-top: 2%
+
+}
+#sixthMainDiv #innerSixthMainDiv #paragInner{
+    width: 90%;
+    padding-bottom: 2%
+}
+#sixthMainDiv #innerSixthMainDiv #jop{
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+#sixthMainDiv #innerSixthMainDiv #qoutImg{
+    position: relative;
+    left: -43%;
+    margin: 2%;
+}
+#sixthMainDiv #innerSixthMainDiv #rightArrow{
+    
+    position: absolute;
+    right: 11%;
+    top: 48%;
+}
+#sixthMainDiv #innerSixthMainDiv #leftArrow{
+    position: absolute;
+    left: 11%;
+    top:48%;
+}
+#sixthMainDiv #innerSixthMainDiv img#personalImg{
+    position: absolute;
+    bottom: -16%;
+    left: 45.5%;
+}
+#sixthMainDiv #innerSixthMainDiv img#leftDiv{
+    position: absolute;
+    left: 0%;
+    top: 67%;
+}
+ /*  Footer-----------------------------Footer  */ 
+
+ /* upper footer */
+#footerUp{
+    position: relative;
+    margin-top: 10%;
+    width: 100%;
+    height: 300px;
+    background-color: #603809;
+    opacity: 1;
+    color: white;
+}
+#footerUp #word{
+    position: inherit;
+    color: #fff2db;
+    top: 34%;
+    text-align: center;
+    font-size: x-large;
+
+}
+#footerUp #background{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    font-size: large;
+    opacity: .4;
+}
+#footerUp #footRight{
+    
+    position: absolute;
+    right: 81%;
+    top: 25%;
+}
+#footerUp #footLift{
+    position: absolute;
+    left: 81.18%;
+    top: 25%;
+}
+/* footer #footerUp h2{
+
+} */
+/* ----------down footer------------- */
+#footerDown {
+    /* position: relative; */
+    width: 100%;
+    height: 400px;
+    background-color: #442808;
+    opacity: 1;
+    color: white;
+}
+#footerDown #footerImg{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    font-size: large;
+    opacity: .3;
+}
+#footerDown #felxFoot{
+    /* justify-content: space-between; */
+    position: relative;
+    top: 34%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+
+
+
+
+
